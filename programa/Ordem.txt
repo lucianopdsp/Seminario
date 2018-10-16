@@ -1,0 +1,12 @@
+(Pessoal)
+Nome Completo
+Idade
+Sexo
+Estado Civil
+Data de Nascimento
+Nacionalidade
+Natural de
+Endereço
+E-mail
+Contato
+________________________

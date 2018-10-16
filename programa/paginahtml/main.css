@@ -1,0 +1,37 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            
+}
+
+body {
+	background: #3f3f3f;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#app {
+	padding: 0 20em;
+}
+
+.form-div {
+	display: flex;
+	justify-content: space-around;
+	margin: 50px 10px;
+}
+
+.firstname-age-div__firstname-div {
+	flex-grow: 1;
+	margin: 0 11px;
+}
+
+.form-input {
+	background: #3f3f3f;
+    color: #fff;
+    border: 3px solid #636262;
+    padding: 7px 13px;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 100%;
+}
