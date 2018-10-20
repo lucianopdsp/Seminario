@@ -15,15 +15,24 @@ body {
 	padding: 0 20em;
 }
 
-.form-div {
+.two-column-div {
 	display: flex;
 	justify-content: space-around;
-	margin: 50px 10px;
+	margin: 26px 10px;
 }
 
-.firstname-age-div__firstname-div {
+.two-column-div__column-div {
 	flex-grow: 1;
 	margin: 0 11px;
+}
+
+.one-column-div {
+	margin: 0 16px;
+}
+
+.button-div {
+	display: flex;
+	justify-content: center;
 }
 
 .form-input {
@@ -33,5 +42,26 @@ body {
     padding: 7px 13px;
     font-size: 14px;
     border-radius: 4px;
-    width: 100%;
+	width: 100%;
+	margin: 16px 0px;
+	transition: all 0.3s;
+}
+
+.form-input:hover {
+	border-color: rgb(190, 190, 190);
+}
+
+.form-button {
+	background: #3f3f3f;
+	color: #fff;
+	border: 3px solid #636262;
+	/* font-size: 14px; */
+	border-radius: 4px;
+	padding: 7px 13px;
+	transition: all 0.3s;
+}
+
+.form-button:hover {
+	border-color: #fff;
+    background: gray;
 }

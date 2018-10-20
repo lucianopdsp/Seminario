@@ -9,37 +9,67 @@
 	</head>
 	<body>
 		<div id="app">
-			<div class="form-div firstname-age-div">
-				<div class="firstname-age-div__firstname-div">
+			<div class="two-column-div">
+				<div class="two-column-div__column-div">
 					<div>Nome Completo</div>
 					<input type="text" name="nome" class="form-input" id="nomeid">
 				</div>
-				<div class="firstname-age-div__firstname-div">
+				<div class="two-column-div__column-div">
 					<div>Idade</div>
 					<input type="number" name="idade" class="form-input" id="idadeid">
 				</div>
 			</div>
-			<label>Sexo: </label>
-			<input type="text" name="sexo" class="form-input" id="sexoid">
-			<label>Estado Civil: </label>
-			<input type="text" name="estadocivil" class="form-input" id="estadocivilid">
-			<label>Data de Nascimento: </label>
-			<input type="date" name="data" class="form-input" id="dataid">
-			<label>Nacionalidade: </label>
-			<input type="text" name="nacionalidade" class="form-input" id="nacionalidadeid">
-			<label>Endereço: </label>
-			<input type="text" name="endereço" class="form-input" id="endereçoid">
-			<label>E-mail: </label>
-			<input type="text" name="email" class="form-input" id="emailid">
-			<label>Contato: </label>
-			<input type="number" name="contato" class="form-input" id="contatoid">
-			<label>Objetivo: </label>
-			<input type="text" name="objetivo" class="form-input" id="objetivoid">
-			<label>Formação Acadêmica, Cursos e Especializações: </label>
-			<input type="text" name="formAcademica" class="form-input" id="formAcademicaid">
-			<label>Idiomas: </label>
-			<input type="text" name="idiomas" class="form-input" id="idiomasid">
-			<button type="submit" name="register">Registrar Currículo</button>
+			<div class="one-column-div">
+				<div>Sexo: </div>
+				<input type="text" name="sexo" class="form-input" id="sexoid">
+			</div>
+			<div class="two-column-div">
+				<div class="two-column-div__column-div">
+					<div>Estado Civil: </div>
+					<input type="text" name="estadocivil" class="form-input" id="estadocivilid">
+				</div>
+				<div class="two-column-div__column-div">
+					<div>Data de Nascimento: </div>
+					<input type="date" name="data" class="form-input" id="dataid">
+				</div>
+			</div>
+			<div class="two-column-div">
+				<div class="two-column-div__column-div">
+						<div>Nacionalidade: </div>
+						<input type="text" name="nacionalidade" class="form-input" id="nacionalidadeid">
+				</div>
+				<div class="two-column-div__column-div">
+					<div>Endereço: </div>
+					<input type="text" name="endereço" class="form-input" id="endereçoid">
+				</div>
+			</div>
+			<div class="one-column-div">
+				<div>E-mail: </div>
+				<input type="text" name="email" class="form-input" id="emailid">
+			</div>
+			<div class="two-column-div">
+				<div class="two-column-div__column-div">
+					<div>Contato: </div>
+					<input type="number" name="contato" class="form-input" id="contatoid">
+				</div>
+				<div class="two-column-div__column-div">
+					<div>Objetivo: </div>
+					<input type="text" name="objetivo" class="form-input" id="objetivoid">
+				</div>
+			</div>
+			<div class="two-column-div">
+				<div class="two-column-div__column-div">
+					<div>Formação Acadêmica, Cursos e Especializações: </div>
+					<input type="text" name="formAcademica" class="form-input" id="formAcademicaid">
+				</div>
+				<div class="two-column-div__column-div">
+					<div>Idiomas: </div>
+					<input type="text" name="idiomas" class="form-input" id="idiomasid">
+				</div>
+			</div>
+			<div class="button-div">
+				<button type="submit" class="form-button" name="register">Registrar Currículo</button>
+			</div>
 		</div>
 	</body>
 </html>
