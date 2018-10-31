@@ -12,6 +12,7 @@ body {
 	background-size: cover;
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
+	height: 100%;
 }
 
 #app {

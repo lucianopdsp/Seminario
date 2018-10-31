@@ -23,6 +23,9 @@ submitButton.addEventListener('click', () => {
     } else if (!(estadoCivil === "solteiro" || estadoCivil === "Solteiro" || estadoCivil === "casado" || estadoCivil === "Casado")) {
         alert("Os valores possiveis é Solteiro ou Casado");
         return;
+    } else if (contato.length < 11 || contato.length > 11) {
+        alert("Número de telefone inválido")
+        return;
     }
 
     doc.text('Nome Completo: ' + nomeCompleto, 20, verticalY);
@@ -76,4 +79,10 @@ function formatarData(data) {
     dataDeNascimento = dataDeNascimento.join('/');
 
     return dataDeNascimento;
+}
+
+function validarEmail(email) {
+    const regex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    console.log(regex.test(email));
+    return regex.test(email);
 }
